@@ -138,7 +138,7 @@
             text.style.top = parseInt(text.style.top) - (directionY * (Math.random() * 100)) + 'px';
             text.style.opacity = 0;
             text.style.transform = 'scale(0.4)'
-            text.innerHTML = "💗"
+            // text.innerHTML = "💗"
             text.style.zIndex = "100"
 
             setTimeout(()=>{
@@ -215,7 +215,7 @@
     // .textLetter text h2
     let indexText = 0;
     let textLetter = document.querySelector('.textLetter h2');
-    const textLetterH2 = "Gửi em!";
+    const textLetterH2 = "Chào em!";
     let timoutTextLetter;
 
     function textCharLetter(){
@@ -243,7 +243,7 @@
     // chữ của thư bạn muốn gửi
     let indexTextContent = 0;
     let textLetterContent = document.querySelector('.contentLetter');
-    const textLetterP = "1 tuần có 7 ngày. 1 ngày có 24 giờ. 1 giờ có 60 phút. 1 phút có 60 giây. Không có một ngày hoặc giờ mà tôi không nhớ bạn. Không có giây phút nào mà anh không nghĩ đến cậu. Tâm hồn và trái tim tôi tràn ngập bạn. Nhớ và yêu em nhiều lắm.";
+    const textLetterP = "Vậy là chúng ta đã ở bên nhau được 2 năm , anh hơi khô khan và đôi lúc có hơi cục tính .Có lẽ hiện giờ đây là món quà đầu tiên anh tặng cho em trong thời gian qua , xin lỗi vì đã để em thiệt thòi ...Hiện tại anh không có đủ khả năng để cho em một món quà giá trị hơn nhưng trong tương lai anh sẽ cố gắng để hoàn thiện mình và sẽ không làm em buồn nữa . Mong em đón nhận món quà này của anh .Chúc em một ngày kỉ niệm thật vui vẻ và hạnh phúc 💑AnhYêuEm";
     let timoutTextLetterContent;
     function textCharLetterContent(){
         if (indexTextContent < textLetterP.length) {

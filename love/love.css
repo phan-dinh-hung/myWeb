@@ -99,7 +99,7 @@ body{
     transform: rotate(20deg);
     transform-origin: top left;
     padding-top: 5px;
-    color: #fff;
+    color: #0a0505;
     font-size: 50px;
     font-family: 'Dancing Script', cursive;
     animation: textHand 1.5s 6s forwards ease-in;
